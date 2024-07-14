@@ -1,0 +1,43 @@
+.home-title {
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    margin-top: 5rem;
+    text-transform: capitalize;
+
+
+}
+
+.category-list {
+    margin: 2.5rem;
+    text-align: center;
+}
+
+.category-items {
+
+    margin: 0rem 1.5rem;
+    
+    
+}
+
+.category-items a {
+    background-color: var(--prime-pink);
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: #fff;
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.category-items a:hover{
+    background-color: rgba(53, 23, 28, 0.719);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0.5rem 0.2rem 0.5rem 0;
+    border: none;
+}
+
+.category-title {
+font-size: 1.5rem;
+
+}

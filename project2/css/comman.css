@@ -1,0 +1,35 @@
+:root {
+    --prime-pink: #9c6d87
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+.header {
+    background-color: var(--prime-pink);
+
+}
+
+.header {
+    padding: 1.5rem 0;
+}
+
+.header-wrapper .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-style: bold;
+    letter-spacing: 5px;
+    line-height: 1.5rem;
+}
+
+.header-wrapper .user-actions {
+    gap: 1.5rem;
+}
