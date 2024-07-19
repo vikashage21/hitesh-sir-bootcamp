@@ -1,0 +1,10 @@
+.filter-wrapper{
+    max-width: 150px;
+}
+.slectors h2{
+    font-size: 0.8rem;
+    margin: 0 1.5rem;
+}
+.slectors select{
+    margin: 0 0.5rem;
+}
