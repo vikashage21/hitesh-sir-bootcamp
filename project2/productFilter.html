@@ -38,12 +38,9 @@
 
     </div>
 
-    <div class="container">
-        <div class="row">
-            <h1 class="heading fw-bold">
-                All Products
-            </h1>
-        </div>
+    <div class="container d-flex flex-row">
+         
+           
         <div class="filter-wrapper d-flex flex-column ">
             <p>Search Products</p>
             <div class="input">
@@ -61,7 +58,7 @@
 
             <div class="slectors d-flex flex-row">
 
-                
+
                 <h2>
                     filter by price
                 </h2>
@@ -69,12 +66,12 @@
                     <select name="MinPrice" id="MinPrice">
                         <option value="0">0</option>
                         <option value="1000">1000</option>
-    
+
                         <option value="2000">2000</option>
-    
+
                         <option value="3000">3000</option>
                         <option value="4000">4000</option>
-    
+
                     </select>
                     <p>
                         Min price
@@ -85,24 +82,38 @@
                     <select name="maxPrice" id="maxPrice">
                         <option value="0">0</option>
                         <option value="1000">1000</option>
-    
+
                         <option value="2000">2000</option>
-    
+
                         <option value="3000">3000</option>
                         <option value="4000">4000</option>
-    
+
                     </select>
-                    
+
                     <p>
                         Max price
                     </p>
                 </div>
             </div>
-            <button class="btn btn-warning clear">
+            <button class="btn btn-danger clear">
 
                 clear Filter
 
             </button>
+            
+        </div>
+        <div class="products">
+            <div class="container">
+                <div class="row">
+                    <div class="col productAll">
+                        <div class="productDetails">
+                            <div class="products">
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>

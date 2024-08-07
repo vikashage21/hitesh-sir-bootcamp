@@ -1,10 +1,45 @@
 .filter-wrapper{
     max-width: 150px;
 }
+.filter-wrapper a{
+   
+    padding: 0.8rem;
+    background-color: rgba(0, 0, 255, 0.11);
+    border-bottom: 1px solid black;
+}
+.filter-wrapper a:hover{
+    background-color: rgba(4, 4, 74, 0.249);
+}
+.slectors {
+    margin-top: 0.5rem;
+}
+
 .slectors h2{
     font-size: 0.8rem;
     margin: 0 1.5rem;
 }
 .slectors select{
     margin: 0 0.5rem;
+}
+.productAll{
+    margin: 1.5rem;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 80vh;
+
+}
+.product-card{
+    display: flex;
+    margin: 4rem 0;
+    
+}
+.productDetails{
+    width: 50%;
+    margin: 0 auto;
+}
+.productDetails h2{
+    font-size: 0.8rem;
+}
+.product-card img{
+    width: 20%;
 }
